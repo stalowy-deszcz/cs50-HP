@@ -50,11 +50,13 @@ header.subsite {
     font-size: 2vh;
 }
 
-img.caro {
-    width: auto;
-    max-height: 60vh;
-}
 
-img {
+img.size {
     max-height: 35vh;
 }
+
+img.caro {
+    width: auto;
+    height: 60vh;
+}
+
