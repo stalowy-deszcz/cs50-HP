@@ -31,10 +31,10 @@ header.subsite {
     justify-content: space-around;
 }
 
-#plato {
+.fontsize {
     text-align: center;
     margin: 2em;
-    font-size: 0.5em;
+    font-size: 2vh;
 }
 
 .caro {
@@ -50,13 +50,18 @@ header.subsite {
     font-size: 2vh;
 }
 
-
 img.size {
     max-height: 35vh;
 }
 
 img.caro {
-    width: auto;
     height: 60vh;
+    width: auto;
 }
 
+@media only screen and (min-width: 768px) {
+
+    img.caro {
+        width: 95%;
+    }
+}
