@@ -38,11 +38,12 @@ header.subsite {
 }
 
 .caro {
-    max-width: 400px;
+    max-width: 30vw;
     margin: auto;
     width: auto;
-    height: 55vh;
+    height: 60vh;
 }
+
 
 
 .carousel-caption {
@@ -58,6 +59,6 @@ img.size {
 @media only screen and (max-width: 768px) {
 
     .caro {
-        width: 95vw;
+        width: 100%;
     }
 }
