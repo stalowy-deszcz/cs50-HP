@@ -55,7 +55,7 @@ img.size {
     max-height: 35vh;
 }
 
-img.caro {
+.caro img {
     height: 60vh;
     width: auto;
 }
